@@ -1,0 +1,32 @@
+.todoAdd {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+.addTodoInp {
+  width: 200px;
+  height: 45px;
+  border: none;
+  outline: none;
+  padding: 0px 7px;
+  border-radius: 6px;
+  color: #fff;
+  font-size: 15px;
+  background-color: transparent;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 1),
+    -1px -1px 6px rgba(255, 255, 255, 0.4);
+  font-family: Arial, Helvetica, sans-serif;
+}
+.addTodoInp:focus {
+  border: 2px solid transparent;
+  color: #fff;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 1),
+    -1px -1px 6px rgba(255, 255, 255, 0.4), inset 3px 3px 10px rgba(0, 0, 0, 1),
+    inset -1px -1px 6px rgba(255, 255, 255, 0.4);
+}
+.addIcon {
+  fill: #fff;
+  font-size: 40px;
+  cursor: pointer;
+}

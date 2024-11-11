@@ -1,0 +1,52 @@
+.todoList {
+    margin: 3rem 0px;
+    display: grid;
+    place-content: center;
+    gap: 10px;
+}
+.listItem {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    gap: 10px;
+    font-size: 1.5rem;
+    background-color: #505050;
+    width: 100%;
+    padding: 10px 20px;
+    transition: all .3s ease;
+    border-radius: 25px;
+}
+.listItem svg {
+    cursor: pointer;
+}
+.todoIconsWrapper {
+    display: flex;
+    align-items: center;
+}
+.todoIconsWrapper svg {
+    margin: 0px 10px;
+}
+.text {
+    outline: none;
+}
+.listItem input {
+    width: 100%;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: #fff;
+    font-size: 1.5rem;
+}
+@media only screen and (max-width: 768px)  {
+    .todoAdd {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .text {
+        width: 100px;
+        overflow: hidden;
+        font-size: 16px;
+    }
+}
